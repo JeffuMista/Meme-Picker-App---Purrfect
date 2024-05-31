@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  background-color: #67595e;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 370px;
+  gap: 15px;
+  padding: 0;
+}
+.header img {
+  width: 110px;
+  background: none;
+  background-color: #67595e;
+}
+h3,
+h2,
+h1 {
+  margin: 0;
+  text-align: center;
+}
+header h1,
+h3 {
+  color: #eed6d3;
+}
+header h3 {
+  padding-top: 0;
+}
+label {
+  font-size: 14px;
+  padding: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+.radios-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0px auto;
+}
+h2 {
+  margin-top: 20px;
+}
+.emotion-radios {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #bcbcbc;
+  border-radius: 5px;
+}
+.radio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #bcbcbc;
+  padding: 4px 8px; 
+}
+.gifs-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+}
+.gifs-check-label {
+  width: unset;
+  margin-right: 5px;
+}
+.get-image-btn {
+  background-color: #67595e;
+  color: #eed6d3;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.modal {
+  display: none;
+  position: fixed;
+  margin: auto;
+  top: 100px;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  width: 420px;
+  height: 490px;
+  background-color: #fff0ee;
+  border: 1px solid #eed6d3;
+}
+.modal-close-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: transparent;
+  color: #555;
+  border-radius: 50%;
+  border: 2px solid #555;
+  padding: 2px 6px;
+  margin-bottom: 20px;
+}
+.modal-close-btn:hover {
+  background-color: #bd301d;
+  color: black;
+  border: 2px solid #bd301d;
+}
+.modal-inner {
+  width: 370px;
+  height: 420px;
+}
+.cat-img {
+  width: 360px;
+  height: 410px;
+  margin: 30px;
+  border-radius: 5px;
+}
+.highlight {
+    background-color: #fff0ee;
+    color: #bd301d;
+    font-weight: bold;
+    accent-color: #bd301d;
+}

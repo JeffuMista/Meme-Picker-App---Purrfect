@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="/cat.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Purrfect App</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="cat.png" alt="cat image" />
+        <div class="header-text">
+          <h3>Orlando's purrfect</h3>
+          <h1>Meme Generator</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h2>Select your current emotion</h2>
+      <div class="radios-container">
+        <div class="emotion-radios" id="emotion-radios"></div>
+        <div class="gifs-check">
+          <label for="gifs-option-only" class="gifs-check-label">Animated Gifs Only</label>
+          <input type="checkbox" id="gifs-option-only" />
+        </div>
+        <button class="get-image-btn" id="get-image-btn">Get Image</button>
+      </div>
+    </main>
+    <div class="modal" id="modal">
+      <button id="modal-close-btn" class="modal-close-btn">X</button>
+      <div class="modal-inner" id="modal-inner"></div>
+    </div>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
